@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/librebaskervillenormal.woff2") format("woff2"),
+    url("../fonts/librebaskervillenormal.woff") format("woff");
+}
+@font-face {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/librebaskervillebold.woff2") format("woff2"),
+    url("../fonts/librebaskervillebold.woff") format("woff");
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Libre Baskerville";
+  font-weight: 700;
+}
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+img {
+  display: block;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.site-header {
+  padding: 40px 0 0;
+}
+.header-wrapper {
+  display: flex;
+  padding-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.header-logo {
+  text-decoration: none;
+}
+.header-link {
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 2.571px;
+  color: #7d7d7d;
+  text-decoration-line: none;
+}
+.site-main {
+  padding-top: 40px;
+}
+.hero-list {
+   display: grid;
+   grid-template-columns: repeat(4, 310px);
+   column-gap: 40px;
+   margin: 0;
+   padding-left: 0;
+   list-style: none;
+}
+.item-list {
+   display: grid;
+   grid-template-rows: 200px 400px 600px 200px;
+   row-gap: 40px;
+   padding-left: 0;
+   list-style: none;
+}
+.hero-item:nth-child(2) .each-list {
+   display: grid; 
+   grid-template-rows: 400px 200px 400px 400px;
+   row-gap: 40px;
+   padding-left: 0;
+}
+.hero-item:nth-child(3) .many-list {
+   display: grid; 
+   grid-template-rows: 200px 600px 400px 200px;
+   row-gap: 40px;
+   padding-left: 0;
+}
+.hero-item:nth-child(4) .some-list {
+   display: grid; 
+   grid-template-rows: 400px 200px 200px 600px;
+   row-gap: 40px;
+   padding-left: 0;
+}
+.list-item {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+.item-title-wrapper {
+   padding: 55px 32px 33px;
+   background: linear-gradient(
+     180deg,
+     rgba(0, 0, 0, 0) 0%,
+     rgba(0, 0, 0, 0.84) 100%
+   );
+}
+.item-title {
+   font-size: 24px;
+   line-height: normal;
+   margin: 0 0 7px;
+   color: #fff;
+}
+.img-author {
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   color: #fff;
+}
+.item-list .list-item:nth-child(1) {
+   background-image: url(../images/rasm1.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.item-list .list-item:nth-child(2) {
+   background-image: url(../images/rasm2.png);
+   background-repeat: no-repeat;
+   background-size: 310px 400px;
+   background-position: center;
+}
+.item-list .list-item:nth-child(3) {
+   background-image: url(../images/rasm3.png);
+   background-repeat: no-repeat;
+   background-size: 310px 600px;
+   background-position: center;
+}
+.item-list .list-item:nth-child(4) {
+   background-image: url(../images/rasm4.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.each-list .list-item:nth-child(1) {
+   background-image: url(../images/rasm5.png);
+   background-repeat: no-repeat;
+   background-size: 310px 400px;
+   background-position: center;
+}
+.each-list .list-item:nth-child(2) {
+   background-image: url(../images/rasm6.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.each-list .list-item:nth-child(3) {
+   background-image: url(../images/rasm7.png);
+   background-repeat: no-repeat;
+   background-size: 310px 400px;
+   background-position: center;
+}
+.each-list .list-item:nth-child(4) {
+   background-image: url(../images/rasm8.png);
+   background-repeat: no-repeat;
+   background-size: 310px 400px;
+   background-position: center;
+}
+.many-list .list-item:nth-child(1) {
+   background-image: url(../images/rasm9.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.many-list .list-item:nth-child(2) {
+   background-image: url(../images/rasm10.png);
+   background-repeat: no-repeat;
+   background-size: 310px 600px;
+   background-position: center;
+}
+.many-list .list-item:nth-child(3) {
+   background-image: url(../images/rasm11.png);
+   background-repeat: no-repeat;
+   background-size: 310px 400px;
+   background-position: center;
+}
+.many-list .list-item:nth-child(4) {
+   background-image: url(../images/rasm12.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.some-list .list-item:nth-child(1) {
+   background-image: url(../images/rasm13.png);
+   background-repeat: no-repeat;
+   background-size: 310px 400px;
+   background-position: center;
+}
+.some-list .list-item:nth-child(2) {
+   background-image: url(../images/rasm12.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.some-list .list-item:nth-child(3) {
+   background-image: url(../images/rasm14.png);
+   background-repeat: no-repeat;
+   background-size: 310px 200px;
+   background-position: center;
+}
+.some-list .list-item:nth-child(4) {
+   background-image: url(../images/rasm15.png);
+   background-repeat: no-repeat;
+   background-size: 310px 600px;
+   background-position: center;
+}
